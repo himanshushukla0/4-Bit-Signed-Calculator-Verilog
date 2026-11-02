@@ -1,11 +1,12 @@
-# 4-Bit Signed Arithmetic Logic Unit (Calculator) for Nexys A7 FPGA
+# 4-Bit Signed Calculator in Verilog (Nexys A7 FPGA)
 
+![Language](https://img.shields.io/badge/Language-Verilog%20HDL-brightgreen)
 ![FPGA](https://img.shields.io/badge/FPGA-Xilinx%20Artix--7%20(XC7A100T)-red)
 ![Board](https://img.shields.io/badge/Target%20Board-Digilent%20Nexys%20A7--100T-blue)
-![HDL](https://img.shields.io/badge/Language-Verilog%20HDL-brightgreen)
-![Status](https://img.shields.io/badge/Phase-Architecture%20Specification-orange)
+![Architecture](https://img.shields.io/badge/Type-Signed%20Two's%20Complement%20ALU-orange)
+![Phase](https://img.shields.io/badge/Phase-Architecture%20Specification-yellow)
 
-An advanced 4-bit signed Arithmetic Logic Unit (Calculator) implemented on the **Digilent Nexys A7-100T FPGA**. 
+A modular, hardware-tested **4-bit Signed Calculator** written in **Verilog HDL** for the **Digilent Nexys A7-100T FPGA**. 
 This project expands upon the structural schematic architecture into a full-featured, hardware-tested digital system featuring:
 * Signed Two's Complement Operations ($+$, $-$, $\times$, $\div$).
 * Dynamic Button-Latched Operation Selection.
@@ -181,3 +182,4 @@ Flag  │ Flag  │ Flag  │ Flag  │  (/)  │  (*)  │ if -B  │  SW[8:5])
 
 ## 📜 Next Phase: Verilog Implementation
 The implementation will be synthesized and loaded into Vivado targeting the **Nexys A7-100T** as a single top-level source with full behavioral simulation testbenches.
+
