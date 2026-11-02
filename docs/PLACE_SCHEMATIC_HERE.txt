@@ -1,0 +1,4 @@
+Place the original ALU schematic screenshot here (PNG or PDF export from Vivado).
+
+Recommended file name: schematic_ref.png
+Source: Exported from Vivado Schematic Editor for the 4-Bit-ALU-Architecture project.
